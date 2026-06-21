@@ -64,7 +64,7 @@
       "marmita": {
         "id": 1,
         "nome": "Frango Maromba",
-        "foto": "https://vitat.com.br/receitas/images/recipeshandler.jpg",
+        "foto": "/marmitasFitness/img/frango_maromba.png",
         "descricao": "Filé de peito de frango grelhado ao ponto com crosta de ervas finas.",
         "valor": 26,
         "novidade": true
@@ -73,7 +73,7 @@
       "id": 4
     },
     {
-      "nome": "lucas",
+      "name": "lucas",
       "tamanho": {
         "id": 2,
         "descricao": "Tamanho M (350g) - Equilibrado"
@@ -83,7 +83,7 @@
           "id": 1,
           "nome": "Suco Verde Detox 310 ml",
           "descricao": "",
-          "foto": "https://img.band.com.br/image/2023/06/23/suco-verde-detox-15325.jpg",
+          "foto": "/marmitasFitness/img/suco_verde.png",
           "valor": 8,
           "novidade": false
         }
@@ -101,7 +101,7 @@
       "marmita": {
         "id": 1,
         "nome": "Frango Maromba",
-        "foto": "https://vitat.com.br/receitas/images/recipeshandler.jpg",
+        "foto": "/marmitasFitness/img/frango_maromba.png",
         "descricao": "Filé de peito de frango grelhado ao ponto com crosta de ervas finas.",
         "valor": 26,
         "novidade": true
@@ -146,7 +146,7 @@
       "marmita": {
         "id": 3,
         "nome": "Escondidinho Low Carb",
-        "foto": "https://vitat.com.br/receitas/images/recipeshandler.jpg",
+        "foto": "/marmitasFitness/img/escondidinho_low.png",
         "descricao": "Delicioso escondidinho com massa leve de purê de couve-flor.",
         "valor": 28,
         "novidade": true
@@ -192,7 +192,7 @@
       "marmita": {
         "id": 3,
         "nome": "Escondidinho Low Carb",
-        "foto": "https://vitat.com.br/receitas/images/recipeshandler.jpg",
+        "foto": "/marmitasFitness/img/escondidinho_low.png",
         "descricao": "Delicioso escondidinho com massa leve de purê de couve-flor.",
         "valor": 28,
         "novidade": true
@@ -215,7 +215,7 @@
       "marmita": {
         "id": 3,
         "nome": "Escondidinho Low Carb",
-        "foto": "https://vitat.com.br/receitas/images/recipeshandler.jpg",
+        "foto": "/marmitasFitness/img/escondidinho_low.png",
         "descricao": "Delicioso escondidinho com massa leve de purê de couve-flor.",
         "valor": 28,
         "novidade": true
@@ -234,7 +234,7 @@
           "id": 1,
           "nome": "Suco Verde Detox 310 ml",
           "descricao": "",
-          "foto": "https://img.band.com.br/image/2023/06/23/suco-verde-detox-15325.jpg",
+          "foto": "/marmitasFitness/img/suco_verde.png",
           "valor": 8,
           "novidade": false
         }
@@ -262,7 +262,7 @@
           "id": 1,
           "nome": "Suco Verde Detox 310 ml",
           "descricao": "",
-          "foto": "https://img.band.com.br/image/2023/06/23/suco-verde-detox-15325.jpg",
+          "foto": "/marmitasFitness/img/suco_verde.png",
           "valor": 8,
           "novidade": false
         }
@@ -270,7 +270,7 @@
       "marmita": {
         "id": 3,
         "nome": "Escondidinho Low Carb",
-        "foto": "https://vitat.com.br/receitas/images/recipeshandler.jpg",
+        "foto": "/marmitasFitness/img/escondidinho_low.png",
         "descricao": "Delicioso escondidinho com massa leve de purê de couve-flor.",
         "valor": 28,
         "novidade": true
@@ -289,7 +289,7 @@
           "id": 1,
           "nome": "Suco Verde Detox 310 ml",
           "descricao": "",
-          "foto": "https://img.band.com.br/image/2023/06/23/suco-verde-detox-15325.jpg",
+          "foto": "/marmitasFitness/img/suco_verde.png",
           "valor": 8,
           "novidade": false
         }
@@ -307,7 +307,7 @@
       "marmita": {
         "id": 3,
         "nome": "Escondidinho Low Carb",
-        "foto": "https://vitat.com.br/receitas/images/recipeshandler.jpg",
+        "foto": "/marmitasFitness/img/escondidinho_low.png",
         "descricao": "Delicioso escondidinho com massa leve de purê de couve-flor.",
         "valor": 28,
         "novidade": true
@@ -331,7 +331,7 @@
       "id": 1,
       "nome": "Suco Verde Detox 310 ml",
       "descricao": "",
-      "foto": "https://img.band.com.br/image/2023/06/23/suco-verde-detox-15325.jpg",
+      "foto": "/marmitasFitness/img/suco_verde.png",
       "valor": 8,
       "novidade": false
     }
@@ -350,7 +350,7 @@
     {
       "id": 1,
       "nome": "Frango Maromba",
-      "foto": "https://vitat.com.br/receitas/images/recipeshandler.jpg",
+      "foto": "/marmitasFitness/img/frango_maromba.png",
       "descricao": "Filé de peito de frango grelhado ao ponto com crosta de ervas finas.",
       "valor": 26,
       "novidade": true
@@ -366,7 +366,7 @@
     {
       "id": 3,
       "nome": "Escondidinho Low Carb",
-      "foto": "https://vitat.com.br/receitas/images/recipeshandler.jpg",
+      "foto": "/marmitasFitness/img/escondidinho_low.png",
       "descricao": "Delicioso escondidinho com massa leve de purê de couve-flor.",
       "valor": 28,
       "novidade": true
