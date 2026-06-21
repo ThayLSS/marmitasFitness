@@ -107,7 +107,7 @@ export default {
       tamanhoSelecionado: "",
       listaComplementosSelecionados: [],
       listaBebidasSelecionadas: [],
-      urlApi: "http://localhost:3000" 
+      urlApi: "https://db-marmitasfitness.onrender.com" 
     };
   },
 
@@ -151,13 +151,11 @@ export default {
         });
 
         if (response.ok) {
-          // Limpa os campos do formulário na memória
           this.nomeClientes = "";
           this.tamanhoSelecionado = "";
           this.listaComplementosSelecionados = [];
           this.listaBebidasSelecionadas = [];
 
-          // MODIFICADO: Sem travar em alertas, vai direto para a tela de monitoramento/listagem
           this.$router.push("/pedidos");
         }
       } catch (error) {

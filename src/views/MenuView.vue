@@ -27,19 +27,17 @@
 </template>
 
 <script>
-// INCLUÍDO: Importando o componente do Banner para esta tela
 import BannerComponent from '@/components/BannerComponent.vue';
 
 export default {
   name: "MenuView",
   components: {
-    // INCLUÍDO: Registrando o componente do Banner
     BannerComponent
   },
   data() {
     return {
       listaMenuMarmitas: [],
-      urlApi: "http://localhost:3000" 
+      urlApi: "https://db-marmitasfitness.onrender.com" 
     };
   },
   methods: {

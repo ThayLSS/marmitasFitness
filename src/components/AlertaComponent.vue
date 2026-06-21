@@ -12,24 +12,23 @@ export default {
     return {
       visivel: false,
       msg: "",
-      tipoAlerta: "sucesso", // sucesso, erro, aviso, info
+      tipoAlerta: "sucesso", 
       icone: "✓"
     };
   },
   methods: {
-    // Método simples ativado via ref pelo componente pai, igual aprendido em aula
+    
     exibirMensagem(texto, tipo = "sucesso") {
       this.msg = texto;
       this.tipoAlerta = tipo;
       this.visivel = true;
 
-      // Define o ícone de acordo com o tipo semântico solicitado
+     
       if (tipo === "sucesso") this.icone = "✓";
       else if (tipo === "erro") this.icone = "✕";
       else if (tipo === "aviso") this.icone = "⚠";
       else if (tipo === "info") this.icone = "ℹ";
 
-      // Limpa após 4 segundos automaticamente
       setTimeout(() => {
         this.visivel = false;
         this.msg = "";
@@ -40,7 +39,7 @@ export default {
 </script>
 
 <style scoped>
-/* Estrutura de posicionamento idêntica à vista em sala */
+
 .mensagem-container {
   position: fixed;
   top: 30px;
@@ -66,7 +65,6 @@ export default {
   font-weight: bold;
 }
 
-/* Estilização Semântica Exigida usando CSS Nativo Padrão */
 .sucesso {
   background-color: #e8f8f5;
   color: #2ecc71;

@@ -54,14 +54,14 @@
         </select>
       </div>
       <div id="div-acoes">
-        <img 
-          src="/img/icone_lixeira.png" 
-          width="35px" 
-          height="35px"
-          @click="deletarPedido($event, pedido.id)"
-          style="cursor: pointer;"
-          alt="Excluir pedido"
-        />
+     <img 
+  src="/marmitasFitness/img/icone_lixeira.png" 
+  width="35px" 
+  height="35px"
+  @click="deletarPedido($event, pedido.id)"
+  style="cursor: pointer;"
+  alt="Excluir pedido"
+    />
       </div>
     </div>
   </div>
@@ -75,7 +75,7 @@ export default {
       listaPedidosRealizados: [],
       listaStatusPedido: [],
       // CORRIGIDO: Alterado para o servidor local
-      urlApi: "http://localhost:3000" 
+      urlApi: "https://db-marmitasfitness.onrender.com"
     };
   },
   methods: {
@@ -84,7 +84,6 @@ export default {
       this.listaPedidosRealizados = await response.json();
     },
     async consultarStatusPedido() {
-      // CORRIGIDO: Rota ajustada para bater com o db.json (/status_pedido)
       const response = await fetch(`${this.urlApi}/status_pedido`);
       this.listaStatusPedido = await response.json();
     },

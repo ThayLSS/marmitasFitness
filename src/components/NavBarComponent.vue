@@ -1,7 +1,7 @@
 <template>
   <div id="nav">
     <router-link to="/" id="logo-url">
-  <img src="/img/logo.png" alt="Marmitas Fitness Logo" id="logo">
+  <img :src="`${process.env.BASE_URL}img/logo.png`" alt="Marmitas Fitness Logo">
 </router-link>
     <router-link to="/menu">Cardápio</router-link> |
     <router-link to="/pedidos">Pedidos</router-link>

@@ -1,5 +1,5 @@
 <template>
-  <div id="main-banner" style="background-image: url('/img/banner.png');">
+  <div id="main-banner" style="background-image: url('/marmitasFitness/img/banner.png');">
     <h1>Marmitas Fitness</h1>
   </div>
 </template>
@@ -25,7 +25,7 @@ export default {
   color: #fff;
   text-align: center;
   font-size: 60px;
-  background-color: rgba(34, 47, 62, 0.7);
+  background-color: rgba(52, 139, 57, 0.7);
   padding: 20px 40px;
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
