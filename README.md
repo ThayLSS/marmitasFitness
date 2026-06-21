@@ -30,4 +30,4 @@ O fluxo da aplicação foi projetado para ser natural e contínuo:
 * **Link da API :** https://db-marmitasfitness.onrender.com
 * **Link de Produção pages:** https://ThayLSS.github.io/marmitasFitness
 * **Link do Repositório projeto:** https://github.com/ThayLSS/marmitasFitness.git
-* **Link do Repositório api: ** https://github.com/ThayLSS/db.marmitasfitness.git
+* **Link do Repositório api:** https://github.com/ThayLSS/db.marmitasfitness.git
